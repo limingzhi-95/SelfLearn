@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7c03b8-41cc-45c5-a54a-066ba3cb499f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProtocolBuffer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtocolBuffer/addressbook.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtocolBuffer/send_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtocolBuffer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProtocolBuffer/protocol_obj/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtocolBuffer/addressbook.proto" beforeDir="false" afterPath="$PROJECT_DIR$/ProtocolBuffer/protocol_obj/addressbook.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtocolBuffer/addressbook_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProtocolBuffer/protocol_obj/addressbook_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtocolBuffer/send_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProtocolBuffer/send_message.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +19,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProtocolBuffer/addressbook.proto">
+        <entry file="file://$PROJECT_DIR$/ProtocolBuffer/protocol_obj/addressbook.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProtocolBuffer/addressbook_pb2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="180" column="97" selection-start-line="180" selection-start-column="97" selection-end-line="180" selection-end-column="97" />
+            <state relative-caret-position="437">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProtocolBuffer/protocol_obj/addressbook_pb2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProtocolBuffer/send_message.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,23 +64,14 @@
         <option value="$PROJECT_DIR$/ProtocolBuffer/message_format.proto" />
         <option value="$PROJECT_DIR$/ProtocolBuffer/__init__.py" />
         <option value="$PROJECT_DIR$/ProtocolBuffer/addressbook.proto" />
+        <option value="$PROJECT_DIR$/send_message.py" />
         <option value="$PROJECT_DIR$/ProtocolBuffer/send_message.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/SelfLearn.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -99,12 +98,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ProtocolBuffer" />
+      <recent name="$PROJECT_DIR$/ProtocolBuffer/protocol_obj" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,12 +135,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info id="DB Browser" />
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -147,9 +154,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3891089" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38795182" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -157,47 +165,30 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ProtocolBuffer/temp.proto" />
-    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/message_format.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/message_format.proto" />
     <entry file="file://$PROJECT_DIR$/ProtocolBuffer/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/message_format_pb2.py">
+    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/message_format_pb2.py" />
+    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/com/example/tutorial/AddressBookProtos.java" />
+    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/protocol_obj/addressbook_pb2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="213">
+          <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/addressbook_pb2.py">
+    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/protocol_obj/addressbook.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3411" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/com/example/tutorial/AddressBookProtos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1335" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/addressbook.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="437">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProtocolBuffer/send_message.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProtocolBuffer/addressbook_pb2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="180" column="97" selection-start-line="180" selection-start-column="97" selection-end-line="180" selection-end-column="97" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
